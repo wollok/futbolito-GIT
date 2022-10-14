@@ -8,14 +8,30 @@ Cada integrante del grupo debe resolver sólo uno de los requerimientos en un
 cada estudiante terminen su requerimiento antes de comenzar a *mergear* los Pull Requests
 
 ## Requerimientos
-- Hacer que Lionel lleve la pelota al apretar la tecla *l*: Cuando la lleva pelota, la pelota
+- **Llevarla**: Hacer que Lionel lleve la pelota al apretar la tecla *l*: Cuando la lleva pelota, la pelota
 se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posición que Lionel.
-- Hacer que Lionel patee la pelota al apretar la tecla *p*: La pelota se desplaza 3 posiciones
+- **Patear**: Hacer que Lionel patee la pelota al apretar la tecla *p*: La pelota se desplaza 3 posiciones
  a la derecha (o lo máximo que se pueda antes de salir de pantalla). 
  Validar que la pelota se encuentre en la misma posicion que Lionel
-- Hacer Lionel de un pase atrás al apretar la tecla *t*: La pelota se mueve 2 posiciones a la izquierda
+- **Taquito**: Hacer Lionel de un pase atrás al apretar la tecla *t*: La pelota se mueve 2 posiciones a la izquierda
 (o lo máximo que se pueda mover). Validar que la pelota se encuentre en la misma posición que Lionel
-- Hacer que Lionel cambie su camiseta al apretar la tecla *c*. Si tiene la camiseta titular pasará a 
+- **Camistea** Hacer que Lionel cambie su camiseta al apretar la tecla *c*. Si tiene la camiseta titular pasará a 
 usar la suplente y viceversa
+
+Nota: No te olvides de hacer los tests también, son parte del requerimiento!
+
+## Luego de los merges
+Puede pasar dos cosas luego de todos los merges:
+1) Haya quedado códugo duplicado (en las validaciones?). Si es así, en un nuevo feature branch
+hacer el refactor para eliminar las validaciones
+2) A veces hay requerimientos que se pueden molestar entre ellos. Probablemente luego de usar
+la funcionalidad de "llevarla" haya dejado de funcionar bien el patear y el taquito, ya que probablemente,
+Luego de cambiar la posicion de la pelota al patear, al estar llevandola vuelva hacia lionel.
+Si eso pasa hay que hacer un nuevo feature branch que lo repare: Cuando se patea o se da el pase
+de taco linonel deja de llevarla.
+  
+
+
+   
 
 

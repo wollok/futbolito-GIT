@@ -9,25 +9,10 @@ object lionel {
 		return "lionel-titular.png"
 	}
 	
-	method patear() {
-		self.validarTenenciaPelota()
-		pelota.moverDerecha(3)
-	}
-	
-	method validarTenenciaPelota() {
-		if ( self.position() != pelota.position() ) {
-			self.error("No tengo la pelota!")
-		}
-	}
 }
 
 
 object pelota {
 	const property image="pelota.png"
-	var property position = game.at(5,5)
-	
-	method moverDerecha(cantidad) {
-		position=game.at((game.width() - 1).min(position.x() + 3), position.y())
-	}
-	
+	var property position = game.at(5,5)	
 }
