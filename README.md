@@ -1,4 +1,4 @@
-# Gitiando
+# Futbolito
 
 Este ejercicio es para trabajar en grupo usando GIT
 
