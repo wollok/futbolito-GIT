@@ -7,7 +7,13 @@ Cada integrante del grupo debe resolver sólo uno de los requerimientos en un
 *feature branch*, y luego realizar un *pull request (PR)* sobre *main* . Esperar a que todos 
 cada estudiante terminen su requerimiento antes de comenzar a *mergear* los Pull Requests
 
-## Requerimientos
+## Requerimientos (pizarrón)
+
+- **Corner** : al apretar la tecla *e* la pelota se debe quedar en la esquina superiror izquierda
+- **Buscarla** : al apretar la tecla *b* lionel se mueve a donde está la pelota
+
+
+## Requerimientos (Estudiantes)
 - **Llevarla**: Hacer que Lionel lleve la pelota al apretar la tecla *l*: Cuando la lleva pelota, la pelota
 se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posición que Lionel.
 - **Patear**: Hacer que Lionel patee la pelota al apretar la tecla *p*: La pelota se desplaza 3 posiciones
