@@ -19,3 +19,4 @@ se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posici
 usar la suplente y viceversa
 
 
+
