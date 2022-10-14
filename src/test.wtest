@@ -1,0 +1,10 @@
+import objetos.*
+test "cambiar" {
+
+	assert.equals("lionel-titular.png", lionel.image())
+	lionel.cambiarCamiseta()
+	assert.equals("lionel-suplente.png", lionel.image())
+	lionel.cambiarCamiseta()
+	assert.equals("lionel-titular.png", lionel.image())
+
+}

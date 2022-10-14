@@ -4,19 +4,28 @@ import wollok.game.*
 object lionel {
 	
 	var property position = game.at(3,5)
+	var titular=true
 	method image() {
-		return "lionel-titular.png"
+		return "lionel-" + self.camiseta() + ".png"
 	}
 	
 	method taquito() {
 		self.validarTenenciaPelota()
 		pelota.moverIzquierda(1)
 	}
+
+	method cambiarCamiseta() {
+		titular=not titular
+	}
 	
 	method validarTenenciaPelota() {
 		if (position != pelota.position()) {
 			self.error("No la tengo")
 		}
+	}
+
+	method camiseta() {
+		return if (titular) "titular" else "suplente"
 	}
 }
 
