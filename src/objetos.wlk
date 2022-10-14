@@ -8,14 +8,14 @@ object lionel {
 		return "lionel-titular.png"
 	}
 	
-	method llevarla() {
+	method taquito() {
 		self.validarTenenciaPelota()
-		pelota.llevada(self)
+		pelota.moverIzquierda(1)
 	}
 	
 	method validarTenenciaPelota() {
 		if (position != pelota.position()) {
-			self.error("No la tengo yo!")
+			self.error("No la tengo")
 		}
 	}
 }
@@ -23,14 +23,10 @@ object lionel {
 
 object pelota {
 	const property image="pelota.png"
-	var _position = game.at(5,5)
-	var jugador = null
+	var property position = game.at(5,5)
 	
-	method llevada(_jugador) {
-		jugador=_jugador
+	method moverIzquierda(cantidad) {
+		position = game.at(0.max(position.x() - 1), position.y())
 	}
 		
-	method position() {
-		return if (jugador != null) jugador.position() else _position
-	}
 }
