@@ -1,6 +1,11 @@
 # Futbolito
 
-Este ejercicio es para trabajar en grupo usando GIT.
+Este ejercicio es para explicar como trabajar en grupo usando GIT. La dinámica de la clase
+está en esta presentación: https://docs.google.com/presentation/d/1ciyiqqpjKKbO2A8GPwTAGJqLnhx2R9C5ZVQZHI6c74A/edit?usp=sharing.
+
+Los requerimientos esperan que ya se haya explicado wollok game (parte 1: objetos visuales, posiciones y mapeo de teclas (bloques)). También incluye
+validaciones (excepciones) y testing
+
 
 ## Dinámica
 
