@@ -16,7 +16,7 @@ cada estudiante termine su requerimiento antes de comenzar a *mergear* los *pull
 
 ## Requerimientos (Estudiantes)
 - **Llevarla**: Hacer que Lionel lleve la pelota al apretar la tecla *l*: Cuando la lleva, la pelota
-se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posición que Lionel al comenzar la búsqueda.
+se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posición que Lionel al comenzar la acción.
 - **Patear**: Hacer que Lionel patee la pelota al apretar la tecla *p*: La pelota se desplaza 3 posiciones
  a la derecha (o lo máximo que se pueda antes de salir de pantalla). 
  Validar que la pelota se encuentre en la misma posicion que Lionel
