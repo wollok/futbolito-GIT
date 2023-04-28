@@ -31,6 +31,8 @@ se mueve junto con Lionel. Validar que la pelota se encuentre en la misma posici
 usar la suplente y viceversa
 
 Nota: No olvidarse de hacer los tests también, son parte del requerimiento!
+Nota: Ojo con asumir en los tests que el tablero tiene el mismo tamaño que en el program. No es así. 
+Usar un describe con el método initialize
 
 ## Luego de los *merges*
 Puede pasar dos cosas luego de todos los merges:
