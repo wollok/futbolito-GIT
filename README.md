@@ -29,7 +29,7 @@ Validar que la pelota se encuentre en la misma posicion que Lionel
   Validar que la pelota se encuentre en la misma posición que Lionel.
 - **Camiseta** Hacer que Lionel cambie su camiseta al apretar la tecla *c*. Si tiene la camiseta titular pasará a 
 usar la suplente y viceversa. Validar que solo se puede realizar si lionel está sobre el borde izquierdo (El x de la posición debe ser 0)
-- **Levantarla** Hacer que la pelota suba por (eje y) 1 posición, y luego de 2 segundos baje nuevamente a dónde estaba. Tip: Usar un scheduler. Validar que la pelota se encuentre en la misma posicion que Lionel.
+- **Sombrero** Al apretar la tecla *L*, hacer que la pelota suba por (eje y) 1 posición, y luego de 2 segundos baje nuevamente a dónde estaba. Tip: Usar un scheduler. Validar que la pelota se encuentre en la misma posicion que Lionel.
 
 Nota: No olvidarse de hacer los tests también, son parte del requerimiento!
 Nota: Ojo con asumir en los tests que el tablero tiene el mismo tamaño que en el program. No es así. 
